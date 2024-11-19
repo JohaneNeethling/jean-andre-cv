@@ -43,7 +43,6 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       {/* Navbar container with dynamic class "scrolled" when scrolled */}
-      <div className="logo">MyLogo</div> {/* Logo section */}
       <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
         {/* Navigation links */}
         <li>
