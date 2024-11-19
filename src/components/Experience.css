@@ -1,0 +1,91 @@
+.experience {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+}
+
+.expTag {
+  font-size: 2.5rem;
+  border-bottom-style: solid;
+  border-bottom-color: #0066ff;
+  border-bottom-width: 4px;
+  margin-left: 2rem;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.expTitle {
+  text-decoration: underline;
+  font-size: 1.5rem;
+  color: #0066ff;
+}
+
+.expComp {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.expDur {
+  font-size: 1rem;
+  color: #878585;
+  font-weight: 600;
+}
+
+.expDesc {
+  font-weight: 600;
+  max-width: 60rem;
+  font-size: 1.1rem;
+}
+
+.expRef {
+  font-size: 1rem;
+  color: #878585;
+  font-weight: 600;
+}
+
+.expImage {
+  width: 28rem;
+  height: 20rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  position: relative;
+  background-size: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.expContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.expImageOverlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 1)
+  );
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expText {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}

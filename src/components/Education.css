@@ -1,0 +1,71 @@
+.education {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 4.8),
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.5),
+      black
+    ),
+    url("../media/Health.png");
+  background-position: center;
+  width: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+.education.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.education-item {
+  margin-bottom: 20px;
+  justify-items: start;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  color: white;
+  border-bottom-color: #0066ff;
+  border-bottom-style: solid;
+  line-height: 2rem;
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.education-item.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.didYou {
+  margin-bottom: 5px;
+  font-size: 2.5rem;
+  border-bottom-style: solid;
+  border-bottom-color: #0066ff;
+  border-bottom-width: 4px;
+  margin-right: 2rem;
+  justify-self: end;
+  color: white;
+}
+
+.introDidYou {
+  text-align: end;
+  max-width: 70rem;
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  justify-self: end;
+  color: white;
+}
+
+.degreeTag {
+  font-size: 1.5rem;
+}
+
+.eduTag {
+  font-size: 1.2rem;
+}
