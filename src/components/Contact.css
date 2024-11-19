@@ -87,3 +87,72 @@
 .mailContainer .contact-link:hover {
   color: #01ddff;
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 4rem;
+  }
+
+  .getInTouch {
+    font-size: 2rem;
+  }
+
+  .introContact {
+    font-size: 1.2rem;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phoneContainer,
+  .mailContainer {
+    margin-bottom: 2rem;
+  }
+
+  .iconPhone,
+  .iconMail {
+    width: 3rem;
+  }
+
+  .contact-link {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 2rem;
+  }
+
+  .getInTouch {
+    font-size: 1.7rem;
+  }
+
+  .introContact {
+    font-size: 1rem;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .contact-links {
+    margin-top: 2rem;
+  }
+
+  .phoneContainer,
+  .mailContainer {
+    margin-bottom: 1.5rem;
+  }
+
+  .iconPhone,
+  .iconMail {
+    width: 2.5rem;
+  }
+
+  .contact-link {
+    font-size: 1.2rem;
+  }
+}

@@ -69,3 +69,64 @@
 .eduTag {
   font-size: 1.2rem;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .education {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .didYou {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+
+  .introDidYou {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+
+  .education-item {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .degreeTag {
+    font-size: 1.3rem;
+  }
+
+  .eduTag {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .education {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .didYou {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+  }
+
+  .introDidYou {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .education-item {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .degreeTag {
+    font-size: 1.1rem;
+  }
+
+  .eduTag {
+    font-size: 0.9rem;
+  }
+}

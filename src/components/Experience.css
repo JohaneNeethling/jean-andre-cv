@@ -89,3 +89,57 @@ ul {
   flex-direction: column;
   z-index: 1;
 }
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .experience {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .experience-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .expImage {
+    width: 100%;
+    height: 200px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .expText {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .expTitle {
+    font-size: 1.3rem;
+  }
+
+  .expComp,
+  .expDur,
+  .expDesc,
+  .expRef {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .expImage {
+    height: 150px;
+  }
+
+  .expTitle {
+    font-size: 1.2rem;
+  }
+
+  .expComp,
+  .expDur,
+  .expDesc,
+  .expRef {
+    font-size: 0.8rem;
+  }
+}

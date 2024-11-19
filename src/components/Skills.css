@@ -63,3 +63,43 @@
 .skills-progress {
   animation: fadeIn 1.2s ease-out forwards;
 }
+
+@media screen and (max-width: 768px) {
+  .skillsProg {
+    font-size: 2rem;
+  }
+
+  .progress-list {
+    margin-left: 1rem;
+  }
+
+  .progress-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .progress-bar {
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skillsProg {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .progress-item {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .progress-bar {
+    height: 12px;
+  }
+
+  .progress {
+    height: 100%;
+    border-radius: 8px;
+  }
+}
