@@ -1,6 +1,12 @@
 # Jean-Andre Portfolio CV Website
 
-A modern, interactive CV website built using **React**. This app features a **dark/light mode toggle**, a **smooth scroll navigation**, and an interactive design to showcase personal information, experience, skills, and more.
+## Description
+
+Professional CV website features an advanced design with a sleek color palette and an intuitive layout. It includes a day and night mode for enhanced user experience, showcasing both design skills and attention to detail.
+
+## Purpose
+
+This professional CV website is designed to showcase my skills and experience in a visually appealing and user-friendly way. Featuring a sleek color palette and an intuitive layout, the site offers a smooth navigation experience. With an added day and night mode for user preference, it highlights my attention to detail and my ability to create designs that are both functional and aesthetically pleasing. The website reflects my commitment to high-quality design and delivering an exceptional user experience.
 
 ## Features
 
@@ -43,13 +49,14 @@ Make sure you have **Node.js** and **npm** (Node Package Manager) installed. If 
    `code`
    npm start
 
-**The app will be available at http://localhost:3000.**
+## Contributing
 
-## Structure
+- **Fork the repository**
+- **Create a new branch**
+- **Commit your changes**
+- **Push to the branch**
+- **Open a Pull Request**
 
-- **/public**: Contains the index.html file.
-- **/src**: Contains all the React components and CSS files.
-- **/components**: Contains the React components like Navbar, Bio, Experience, Skills, Education, Contact, Footer, etc.
-- **/media**: Store images (e.g., profile picture) and any other assets.
-- **App.js**: The main entry point for the app.
-- **App.css**: Global CSS file with variables for dark/light themes.
+## Lisence
+
+This project is licensed under the MIT License.
